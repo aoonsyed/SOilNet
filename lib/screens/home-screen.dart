@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 30),
             Container(
                 height: 150,
-                child: Image.asset('lib/assets/images/image1.png')),
+                child: Image.asset('assets/images/image1.png')),
             RichText(
                 text: TextSpan(
                     text: "Soil",

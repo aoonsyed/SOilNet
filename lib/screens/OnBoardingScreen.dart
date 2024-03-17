@@ -54,7 +54,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               children: [
                 Container(
                     height: 150,
-                    child: Image.asset('lib/assets/images/image1.png')),
+                    child: Image.asset('assets/images/image1.png')),
                 RichText(
                     text: TextSpan(
                         text: "Soil",

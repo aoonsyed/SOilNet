@@ -58,7 +58,7 @@ class _NewTestScreenState extends State<NewTestScreen> {
   }
 
   Future<void> loadModel() async {
-    _interpreter = await Interpreter.fromAsset('mobilenet_v2_soil_classification.tflite');
+    _interpreter = await Interpreter.fromAsset('assets/models/mobilenet_v2_soil_classification.tflite');
   }
 
   Future<void> selectImage(ImageSource source) async {

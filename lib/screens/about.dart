@@ -57,7 +57,7 @@ class AboutScreen extends StatelessWidget {
          child:  Container(
            margin: EdgeInsets.only(bottom: 20),
              height: 300,
-             child: Image.asset('lib/assets/images/image2.png',)),),
+             child: Image.asset('assets/images/image2.png',)),),
           Row(
             children: [Expanded(flex: 1,
               child: Container(
